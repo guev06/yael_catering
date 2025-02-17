@@ -4,6 +4,8 @@ import List from './components/List';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import AddMovie from './components/AddMovie';
 import SearchForMovie from './components/SearchForMovie';
+
+
 function App() {
   return (
     <div className="App">
