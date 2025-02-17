@@ -1,0 +1,36 @@
+.App {
+  width: 100%;
+  text-align: center;
+  
+}
+*{
+  background-color: rgb(255, 222, 227);
+}
+#outer-div {
+  display: flex;
+  justify-content: space-evenly; /* Use only one justify-content rule */
+  flex-direction: row;
+  width: 70%;
+  padding-top: 120px;
+  flex-wrap: wrap; /* Allows wrapping */
+  justify-self: center; /* This is unnecessary if you use justify-content correctly */
+  gap:30px;
+  
+}
+.input{
+   width: 140px;
+   padding: 20px;
+   margin: 10px;
+ }
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Aligns items horizontally in the center */
+  margin-top: 20px;
+  box-shadow: 2px 2px 4px 2px rgba(0,0,0,.2);
+  width:30%
+}
+
+.img{
+  padding-top:10px
+}
